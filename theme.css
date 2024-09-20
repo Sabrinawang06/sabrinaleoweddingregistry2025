@@ -9,7 +9,7 @@ html, body{
     text-align: center;
 }
 .header{
-    background-image: url(./img/hero.jpeg);
+    background-image: url(./img/engagement.jpg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -86,4 +86,19 @@ html, body{
     .heading {
         font-size: 4em;
     }
+  }
+
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em 2.4em;
   }
